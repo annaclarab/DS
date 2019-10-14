@@ -1,0 +1,55 @@
+@charset 'UTF-8';
+
+body {
+padding: 0;
+margin: 30px 0 0 0;
+display: block;
+}
+
+div{
+	margin-bottom: 30px;
+}
+
+p {
+width: 290px;
+margin: 20px 50px;
+padding: 10px;
+line-height: 1.5em;
+}
+
+h1 {
+padding: 15px 37%;
+margin-top: 0px;
+text-align: center;
+}
+
+.col-left, .col-center, .col-right {
+background-color: #ccc;
+width: 430px;
+padding-bottom: 50px;
+}
+
+.col-left h1 {
+padding: 25px 22%;
+}
+
+.col-center {
+position: relative;
+top: -538.5px;
+right: -451px;
+}
+
+.col-center h1 {
+padding: 25px 10%;
+}
+
+.col-right {
+position: relative;
+top: -1077px;
+right: -900px;
+margin-bottom: -1040px;
+}
+
+.col-right h1 {
+padding: 5px 6%;
+}
